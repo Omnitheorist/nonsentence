@@ -8,7 +8,7 @@ setup(
   author = 'Jonathan Davis',                   # Type in your name
   author_email = 'davisjonathan380@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Omnitheorist/nonsentence',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
+  download_url = 'https://github.com/Omnitheorist/nonsentence/archive/refs/tags/v0.1.tar.gz',
   keywords = ['nonsense', 'sentence', 'generator'],   # Keywords that define your package best
 
   classifiers=[
