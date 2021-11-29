@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
   name = 'nonsentence',         # How you named your package folder (MyLib)
   packages = ['nonsentence'],   # Chose the same as "name"
-  version = '0.2.4',      # Start with a small number and increase it with every change you make
+  version = '0.3.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A Python module that generates customisable nonsense sentences.',   # Give a short description about your library
   author = 'Jonathan Davis',                   # Type in your name
