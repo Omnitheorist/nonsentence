@@ -14,8 +14,8 @@ def newSentence(sentenceMinLength, sentenceMaxLength, wordMinLength, wordMaxLeng
         sentenceStr = ""
 
         for i in range(random.randint(sentenceMinLength, sentenceMaxLength)):
-            for i in range(random.randint(wordMinLength,wordMaxLength)):
-                if i % 2 == 0:
+            for n in range(random.randint(wordMinLength,wordMaxLength)):
+                if n % 2 == 0:
                     word.append(random.choice(conson))
                 else:
                     word.append(random.choice(vowels))
