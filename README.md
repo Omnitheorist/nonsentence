@@ -2,7 +2,7 @@
 A Python function / module that generates nonsense sentences under the scheme vowel-consonsant-vowel, with customisable sentence and word length.
 
 ## Usage
-Install from PyPi (coming soon):
+Install from PyPi:
 `pip install nonsentence`
 ```py
 import nonsentence
