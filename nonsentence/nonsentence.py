@@ -3,8 +3,6 @@ import random
 
 
 def new_sentence(sentence_length, word_min_length, word_max_length):
-    letters = string.ascii_letters
-
     # Create consonant and vowel list
     vowels = [letter for letter in string.ascii_lowercase if letter in "aeiou"]
     consonants = [letter for letter in string.ascii_lowercase if letter not in "aeiou"]
