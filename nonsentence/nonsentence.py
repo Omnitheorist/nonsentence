@@ -10,7 +10,6 @@ def new_sentence(sentence_length, word_min_length, word_max_length):
     while True:
         word = []
         sentence = []
-        sentence_str = ""
 
         for _ in range(sentence_length):
             for n in range(random.randint(word_min_length, word_max_length)):
@@ -22,6 +21,4 @@ def new_sentence(sentence_length, word_min_length, word_max_length):
             sentence.append("".join(word))
             word = []
 
-        sentence_str = " ".join(sentence) + "."
-        sentence_str = sentence_str.capitalize()
-        return sentence_str
+        return " ".join(sentence).capitalize() + "."
