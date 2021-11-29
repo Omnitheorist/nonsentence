@@ -12,7 +12,7 @@ def new_sentence(sentence_length, word_min_length, word_max_length):
         sentence = []
         sentence_str = ""
 
-        for i in range(sentence_length):
+        for _ in range(sentence_length):
             for n in range(random.randint(word_min_length, word_max_length)):
                 if n % 2 == 0:
                     word.append(random.choice(consonants))
