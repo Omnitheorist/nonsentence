@@ -6,10 +6,10 @@ Install from PyPi:
 `pip install nonsentence`
 ```py
 import nonsentence
-nonsentence.newSentence(minSentenceLength, maxSentenceLength, minWordLength, maxWordLength)
+nonsentence.new_sentence(sentence_length, min_word_length, max_word_length)
 ```
 ### Example
 ```py
->>> nonsentence.newSentence(5, 20, 3, 10)
+>>> nonsentence.new_sentence(10, 4, 12)
 'xeratihut lux qihaci def zevepehot piroqihuc tegot wejijiquh tet gaza piqitadu.'
 ```
